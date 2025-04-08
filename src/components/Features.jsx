@@ -47,6 +47,8 @@ const BentoCard = ({src, title, description}) => {
             src={src}
             loop
             muted
+            type="video/mp4"
+            playsInline
             autoPlay
             className='absolute left-0 top-0
             size-full object-cover object-center'
@@ -89,7 +91,7 @@ const Features = () => {
         <BentoTilt className='border-hsla relative mb-7 h-95
         w-full overflow-hidden rounded-md md:h-[65vh] '>
             <BentoCard
-            src= "videos/f1.mp4"
+            src= "https://res.cloudinary.com/dqbhvzioe/video/upload/v1744103107/f1_fswysc.mp4"
             title = {<><b>Heroes</b></>}
             description="Meet the iconic protectors of the universe,
              from Iron Man and Spider-Man to Doctor Strange 
@@ -103,7 +105,7 @@ const Features = () => {
                     <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1
                    md:row-span-2 '>
                                 <BentoCard
-                                    src="videos/f2.mp4"
+                                    src="https://res.cloudinary.com/dqbhvzioe/video/upload/v1744103020/f2_kqtilp.mp4"
                                     title={<><b>Villains</b></>}
                                     description={"Explore the minds of Marvel’s greatest threats, including Thanos, Loki, Kang, and the Green Goblin."}
                                  />
@@ -112,7 +114,7 @@ const Features = () => {
                     <BentoTilt className='bento-tilt_1 row-span-1 ms-32
                      md:col-span-1 md:ms-0'>
                             <BentoCard
-                            src="videos/feature-3.mp4"
+                            src="https://res.cloudinary.com/dqbhvzioe/video/upload/v1744102674/feature-3_k3tnrx.mp4"
                             title={<><b>Teams</b></>}
                             description="Discover the power of unity with groups like the Avengers and the Guardians of the Galaxy."
                             />
@@ -120,7 +122,7 @@ const Features = () => {
 
                     <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
                             <BentoCard
-                            src="videos/feature-4.mp4"
+                            src="https://res.cloudinary.com/dqbhvzioe/video/upload/v1744102652/feature-4_p5nprl.mp4"
                             title={<><b>Allies</b></>}
                             description="The mentors, sidekicks, and allies who make a difference, such as Nick Fury and Pepper Potts."
                             />
@@ -139,7 +141,7 @@ const Features = () => {
 
                     <BentoTilt className='bento-tilt_2'>
                             <video
-                            src='videos/feature-5.mp4'
+                            src='https://res.cloudinary.com/dqbhvzioe/video/upload/v1744102683/feature-5_lfdc9j.mp4'
                             loop
                             muted
                             autoPlay

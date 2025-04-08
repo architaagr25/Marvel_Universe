@@ -76,7 +76,7 @@ const Navbar = () => {
 
 {/*left side of navbar*/}
         <div className='flex items-center gap-7'>
-    <img src="/img/logo.png" alt="logo" className='w-10'/>
+    <img src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1744102878/logo_acef5r.png" alt="logo" className='w-10'/>
     <Button
     id="product-button"
     title="Products"

@@ -64,7 +64,7 @@ const Story = () => {
                                 onMouseUp={handlemouseleave}
                                 onMouseEnter={handlemouseleave}
                                 onMouseMove={handlemousemove}
-                                src="/img/story.webp"
+                                src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1744102885/story_uabcoa.webp"
                                 alt='storyimg'
                                 className='object-contain'/>
 

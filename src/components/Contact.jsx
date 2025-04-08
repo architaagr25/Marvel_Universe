@@ -16,12 +16,12 @@ const Contact = () => {
                overflow-hidden sm:block lh:left-20 lg:w-96'>
                 <ImageClipBox
                 clipclass="contact-clip-path-1"
-                src="img/contact-1.webp"
+                src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1744102877/contact-1_uz1ptm.webp"
                 />
                 <ImageClipBox
                 clipclass="contact-clip-path-2 lg:translate-y-5 lg:translate-x-10
                 translate-y-10"
-                src="img/contact-2.webp"
+                src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1744102880/contact-2_hjkj1s.webp"
                 />
                 </div>
 
@@ -29,12 +29,12 @@ const Contact = () => {
                sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80'>
                     <ImageClipBox
                 clipclass="absolute md:scale-125"
-                src="img/avenger-partial.png"
+                src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1744102882/avenger-partial_yoxjwa.png"
                 />
 
                     <ImageClipBox
                 clipclass="sword-man-clip-path md:scale-125"
-                src="img/avenger.jpg"
+                src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1744102883/avenger_jptuyn.png"
                 />
                </div>
 

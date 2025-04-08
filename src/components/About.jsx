@@ -62,7 +62,7 @@ const About = () => {
         <div className='h-dvh w-screen' id='clip'>
             <div className='mask-clip-path about-image relative'>
                     <img
-                    src='img/about.webp'
+                    src='https://res.cloudinary.com/dqbhvzioe/image/upload/v1744102885/about_jpf4ti.webp'
                     alt='background image'
                     className='absolute left-0 top-0
                     size-full object-cover'
