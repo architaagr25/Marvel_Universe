@@ -100,7 +100,7 @@ const Navbar = () => {
             space-x-0.5' onClick={toggleaudioindicator}>
                 <audio ref={audioelementref}
                        className='hidden'
-                       src='/audio/loop.mp3'
+                       src='https://res.cloudinary.com/dqbhvzioe/video/upload/v1744122520/loop_vmragj.mp3'
                        loop/>
                         
                         {/*showing line bars for audio animation*/}
